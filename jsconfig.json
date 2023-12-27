@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*", "src/functions/formatTime.js", "src/functions/ToastFunction.jsx"],
+  "exclude": ["node_modules"]
+}

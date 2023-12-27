@@ -1,0 +1,41 @@
+.container {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ffffff;
+  padding: 2%;
+  min-height: 510px;
+}
+/* ThreeColorLine.css */
+.three-color-line {
+  height: 6px; /* Set the height of the line */
+  background-image: linear-gradient(
+    to right,
+    #faaf00 0%,
+    #faaf00 33%,
+    #1e3e79 33%,
+    #1e3e79 66%,
+    #00adef 66%,
+    #00adef 100%
+  ); /* Define the color stops */
+}
+.chip {
+  transition: background-color 0.3s ease-in-out; /* Add the desired transition property */
+}
+
+.active-chip {
+  background-color: #070707; /* Change this to the desired active color */
+  color: #fff; /* Change this to the desired text color for active chip */
+}
+
+.inactive-chip {
+  background-color: #e0e0e0; /* Change this to the desired inactive color */
+}
+/* ServicesSpace.css (or your preferred CSS file) */
+.custom-tab-indicator {
+  display: none; /* Hide the default indicator */
+}
+/* Add this CSS to your stylesheet or component style */
+.MuiPickersToolbar-root {
+  display: none;
+}

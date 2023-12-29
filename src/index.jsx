@@ -27,7 +27,7 @@ const queryClient = new QueryClient();
 root.render(
   <StrictMode>
     <ReduxProvider store={store}>
-      <BrowserRouter basename="/booking">
+      <BrowserRouter basename="/project/booking">
       <QueryClientProvider client={queryClient}>
           <App/> 
           <ReactQueryDevtools initialIsOpen /> 

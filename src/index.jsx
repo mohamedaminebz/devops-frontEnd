@@ -27,12 +27,13 @@ const queryClient = new QueryClient();
 root.render(
   <StrictMode>
     <ReduxProvider store={store}>
-      <BrowserRouter basename="/project/booking">
+      {/* <BrowserRouter basename="/project/booking">
       <QueryClientProvider client={queryClient}>
           <App/> 
           <ReactQueryDevtools initialIsOpen /> 
         </QueryClientProvider>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <h1>hellooooooooo world</h1>
     </ReduxProvider>
   </StrictMode>
 );
